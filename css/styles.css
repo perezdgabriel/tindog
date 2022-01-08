@@ -1,31 +1,31 @@
 
  body {
     font-family: 'Montserrat', sans-serif;  
+    text-align: center;
  }
 
- h1 {  
-    font-size: 3.5rem;  
-    line-height: 1.5;  
-    font-weight: 900;
-    color: white;
-}
-
-h2 {
+ h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 3rem;
     font-weight: 900;
-    line-height: 1.5;
-}
-
-h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3rem;
-    font-weight: 900;
-    line-height: 1.5;
-}
+ }
 
 p {
     color: #8f8f8f;
+}
+
+.big-heading {
+    font-size: 3.5rem;  
+    line-height: 1.5;  
+    font-weight: 900;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 7% 15%;
 }
 
 /* Navigation bar */
@@ -58,6 +58,7 @@ p {
 #title {
     background-color: #ff4c68;
     color: white;
+    text-align: left;
 }
 
 .col-title {
@@ -92,9 +93,8 @@ p {
     padding: 7% 15%;
     background-color: white;
 }
+
 .features-title {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
     font-size: 1.5rem;
 }
 
@@ -109,13 +109,11 @@ p {
 }
 
 .feature-col {
-    text-align: center;
     padding: 5%;
 }
 
 /* Section testimonials */
 #testimonials {
-    text-align: center;
     background-color: #ef8172;
     color: white;
 }
@@ -126,6 +124,11 @@ p {
     margin: 20px;
 }
 
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 .carousel-item {
     padding: 7% 15%;
 }
@@ -134,7 +137,6 @@ p {
 
 #press {
     background-color: #ef8172;
-    text-align: center;
     padding: 3%;
 }
 
@@ -146,27 +148,29 @@ p {
 /* Pricing section */
 
 #pricing {
-    padding: 100px;;
-    text-align: center;
+    padding: 100px;
 }
 
 .pricing-column {
     padding: 3%;
 }
 
-
 /* Section Call to Action */
 
  #cta {
-    text-align: center;
     background-color: #ff4c68;
-    padding: 5% 15% 3%;
+    padding: 7% 15%;
+    color: white;
  }
 
  /* Section footer */
  
  #footer {
      background-color: white;
-     text-align: center;
-     padding: 5%;
+     padding: 7% 15%;
+ }
+
+ .media-icon {
+     width: 2rem;
+     margin: 0 20px 30px 0;
  }
