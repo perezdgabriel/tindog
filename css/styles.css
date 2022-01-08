@@ -17,6 +17,17 @@ h2 {
     line-height: 1.5;
 }
 
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+p {
+    color: #8f8f8f;
+}
+
 /* Navigation bar */
 .navbar {
     padding: 0 0 4.5rem;
@@ -41,7 +52,7 @@ h2 {
 
 /* Section title */
 #top-section-container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 #title {
@@ -49,28 +60,42 @@ h2 {
     color: white;
 }
 
-.img-iphone {
-    width: 60%;
-    transform: rotate(30deg);
+.col-title {
+    position: relative;
 }
 
-/* Download buttons */
+.img-iphone {
+    transform: rotate(30deg);
+    position: absolute;
+    right: 30%;
+    width: 60%;
+}
+
 .dl-button {
     margin: 5% 3% 5% 0;
 }
 
+@media (max-width: 992px){
+    .img-iphone {
+        transform: none;
+        position: static;
+        width: 40%;
+    }
+    #title {
+        text-align: center;
+    }
+}
+
 /* Section features */
 #features {
+    position: relative;
     padding: 7% 15%;
+    background-color: white;
 }
 .features-title {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 1.5rem;
-}
-
-.features-text {
-    color: #8f8f8f
 }
 
 .feature-icon {
@@ -128,3 +153,20 @@ h2 {
 .pricing-column {
     padding: 3%;
 }
+
+
+/* Section Call to Action */
+
+ #cta {
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 5% 15% 3%;
+ }
+
+ /* Section footer */
+ 
+ #footer {
+     background-color: white;
+     text-align: center;
+     padding: 5%;
+ }
