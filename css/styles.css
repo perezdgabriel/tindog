@@ -28,6 +28,15 @@ p {
     padding: 7% 15%;
 }
 
+.white-section {
+    background-color: white;
+}
+
+.colored-section {
+    background-color: #ff4c68;
+    color: white;
+}
+
 /* Navigation bar */
 .navbar {
     padding: 0 0 4.5rem;
@@ -50,14 +59,12 @@ p {
     padding: 0;
 }
 
-/* Section title */
-#top-section-container-fluid{
-    padding: 3% 15% 7%;
+#top-section-container-fluid {
+    padding-top: 3%;
 }
+/* Section title */
 
 #title {
-    background-color: #ff4c68;
-    color: white;
     text-align: left;
 }
 
@@ -90,7 +97,6 @@ p {
 /* Section features */
 #features {
     position: relative;
-    padding: 7% 15%;
     background-color: white;
 }
 
@@ -115,7 +121,6 @@ p {
 /* Section testimonials */
 #testimonials {
     background-color: #ef8172;
-    color: white;
 }
 
 .testimonial-img {
@@ -129,15 +134,11 @@ p {
     line-height: 1.5;
 }
 
-.carousel-item {
-    padding: 7% 15%;
-}
-
 /* Press section */
 
 #press {
     background-color: #ef8172;
-    padding: 3%;
+    padding-bottom: 3%;
 }
 
 .press-item {
@@ -155,22 +156,8 @@ p {
     padding: 3%;
 }
 
-/* Section Call to Action */
-
- #cta {
-    background-color: #ff4c68;
-    padding: 7% 15%;
-    color: white;
- }
-
  /* Section footer */
- 
- #footer {
-     background-color: white;
-     padding: 7% 15%;
- }
 
- .media-icon {
-     width: 2rem;
-     margin: 0 20px 30px 0;
+ .social-icon {
+     margin: 20px 10px;
  }
